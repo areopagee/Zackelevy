@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SecureGen Privacy Policy</title>
+<meta name="description" content="Privacy policy for SecureGen, an offline password generator for Android.">
+<style>
+  :root {
+    --bg: #090b0f;
+    --panel: #12161c;
+    --border: #242b35;
+    --text: #f1f4f7;
+    --muted: #8793a0;
+    --accent: #1df5a4;
+    --accent-bg: #0b2a22;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f5f7f8;
+      --panel: #ffffff;
+      --border: #dde3e8;
+      --text: #10151a;
+      --muted: #55606b;
+      --accent: #078a5e;
+      --accent-bg: #e3f6ee;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    line-height: 1.65;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; }
+  header svg { flex: none; }
+  .brand { font-family: var(--mono); font-weight: 700; letter-spacing: 3px; font-size: 20px; margin: 0; }
+  .tagline { font-family: var(--mono); font-size: 11px; letter-spacing: 1px; color: var(--muted); margin: 2px 0 0; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 8px; }
+  .meta { color: var(--muted); font-size: 14px; margin: 0 0 24px; font-family: var(--mono); }
+  .summary {
+    background: var(--accent-bg);
+    border: 1px solid var(--accent);
+    border-radius: 16px;
+    padding: 18px 20px;
+    margin: 0 0 28px;
+  }
+  .summary p { margin: 0; }
+  .summary strong { color: var(--accent); }
+  section {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 20px 22px;
+    margin: 0 0 16px;
+  }
+  h2 { font-size: 18px; margin: 0 0 10px; }
+  p { margin: 0 0 12px; }
+  p:last-child, ul:last-child { margin-bottom: 0; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  code { font-family: var(--mono); font-size: 0.92em; background: var(--accent-bg); color: var(--accent); padding: 1px 6px; border-radius: 6px; }
+  a { color: var(--accent); }
+  .placeholder { color: #fbbf24; font-weight: 600; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+  .table-scroll { overflow-x: auto; }
+  footer { color: var(--muted); font-size: 13px; text-align: center; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#1df5a4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="12" cy="6.5" r="4.4"/>
+      <line x1="12" y1="11" x2="12" y2="22"/>
+      <line x1="12" y1="17" x2="17" y2="17"/>
+      <line x1="12" y1="20.6" x2="15.6" y2="20.6"/>
+    </svg>
+    <div>
+      <p class="brand">SECUREGEN</p>
+      <p class="tagline">Private Password Generator</p>
+    </div>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective date: October 27, 2026 &nbsp;·&nbsp; App version 1.0.0</p>
+
+  <div class="summary">
+    <p><strong>In short:</strong> SecureGen generates passwords locally on your device. It does not require an account, connect to the internet, collect analytics, or send generated passwords to external services.</p>
+  </div>
+
+  <section id="who">
+    <h2>1. Who we are</h2>
+    <p>SecureGen (“the app”, “we”, “us”) is an offline password, passphrase and PIN generator for Android, published by <span class="placeholder">Zackelevy LLC</span>. This policy explains what the app does, and does not do, with your information.</p>
+  </section>
+
+  <section id="collect">
+    <h2>2. Information we collect</h2>
+    <p><strong>None.</strong> The app does not collect, receive, transmit or share any personal information. We do not operate servers for the app, and the app has no accounts, sign-in, advertising, analytics, crash-reporting or tracking components.</p>
+  </section>
+
+  <section id="generated">
+    <h2>3. Generated passwords, passphrases and PINs</h2>
+    <ul>
+      <li>Every value is created on your device using Java’s <code>SecureRandom</code> cryptographic random number generator.</li>
+      <li>Generated values are kept in the device’s memory only while you are using the app.</li>
+      <li>They are <strong>never</strong> written to storage, logged, uploaded, or added to a history.</li>
+      <li>Closing the app, or generating a new value, discards the previous one.</li>
+    </ul>
+  </section>
+
+  <section id="stored">
+    <h2>4. Information stored on your device</h2>
+    <p>The app saves only two non-sensitive preferences in its private storage, which other apps cannot read:</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Setting</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Default password length</td><td>Used when the app starts and when you reset settings.</td></tr>
+          <tr><td>Exclude ambiguous characters</td><td>Remembers your on/off choice.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="margin-top:12px">These settings contain no passwords and no personal data. Use <em>Settings → Reset settings</em> in the app, clear the app’s storage in Android settings, or uninstall the app to remove them.</p>
+  </section>
+
+  <section id="clipboard">
+    <h2>5. Clipboard</h2>
+    <p>The app uses the Android clipboard <strong>only when you tap Copy</strong> (or tap the password area). It never reads the clipboard. On supported Android versions the copied value is marked as sensitive so the system can hide it in previews.</p>
+    <p>Once copied, the value lives on the system clipboard under Android’s control, outside this app. Other apps and clipboard managers on your device may be able to access it, so paste it promptly and clear your clipboard if you are concerned.</p>
+  </section>
+
+  <section id="permissions">
+    <h2>6. Permissions and network access</h2>
+    <p>SecureGen requests <strong>no Android permissions</strong>. It does not declare the internet permission, so it cannot send or receive data over the network. It does not access your contacts, location, camera, microphone, photos or files.</p>
+  </section>
+
+  <section id="third">
+    <h2>7. Third parties</h2>
+    <p>The app contains no third-party SDKs for advertising, analytics or tracking, and no data is shared with any third party.</p>
+  </section>
+
+  <section id="estimates">
+    <h2>8. Strength estimates</h2>
+    <p>The strength meter is an estimate based on length and character variety. It is not a guarantee that a password is secure. Choose a unique password for every account and consider using a reputable password manager to store them.</p>
+  </section>
+
+  <section id="children">
+    <h2>9. Children’s privacy</h2>
+    <p>Because the app collects no personal information from anyone, it does not knowingly collect information from children.</p>
+  </section>
+
+  <section id="changes">
+    <h2>10. Changes to this policy</h2>
+    <p>If the app’s data practices change, we will update this page and the effective date above. Material changes will be reflected in a new app version.</p>
+  </section>
+
+  <section id="contact">
+    <h2>11. Contact</h2>
+    <p>Questions about this policy? Email <span class="placeholder">contact@kvantevinsjer.site | abati1999am@gmail.com</span>.</p>
+  </section>
+
+  <footer>© 2026 SecureGen. All rights reserved.</footer>
+</div>
+</body>
+</html>
